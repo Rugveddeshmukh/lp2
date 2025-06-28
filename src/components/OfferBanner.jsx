@@ -47,7 +47,7 @@ const OfferBanner = () => {
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
-          padding: '14px 40px',
+          padding: '16px 40px',
           borderTop: '2px solid #DEA15B',
           boxShadow: '0 -2px 12px rgba(0, 0, 0, 0.4)',
           zIndex: 9999,

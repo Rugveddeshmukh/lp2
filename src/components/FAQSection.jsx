@@ -104,7 +104,7 @@ const FAQSection = () => {
 const styles = {
   fullBackground: {
     backgroundColor: '#0f0f0f',
-    minHeight: '100vh',
+    minHeight: '130vh',
     width: '100%',
     padding: '60px 20px',
     boxSizing: 'border-box',
@@ -112,14 +112,14 @@ const styles = {
   },
   container: {
     color: '#fff',
-    fontFamily: 'sans-serif',
+    fontFamily: 'Outfit,sans-serif',
     maxWidth: '800px',
     margin: '0 auto',
    
   },
   heading: {
     textAlign: 'center',
-    fontSize: '36px',
+    fontSize: '32px',
     fontWeight: 'bold',
     marginBottom: '40px'
   },
@@ -132,11 +132,11 @@ const styles = {
   questionBox: {
     backgroundColor: '#1e1e1e',
     padding: '20px',
-    fontSize: '20px',
+    fontSize: '18px',
     fontWeight: '600',
     cursor: 'pointer',
     display: 'flex',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
     alignItems: 'center'
   },
   question: {
@@ -149,7 +149,7 @@ const styles = {
   answer: {
     backgroundColor: '#121212',
     padding: '20px',
-    fontSize: '16px',
+    fontSize: '15px',
     color: '#fff'
   }
 };
