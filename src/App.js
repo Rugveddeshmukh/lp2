@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import ChallengesSection from "./components/ChallengesSection";
+import DigitalBusinessPoints from "./components/DigitalBusinessPoints";
+import HeroSection from "./components/HeroSection";
+import CommonSection from "./components/CommonSection";
+import WorkshopBanner from "./components/WorkshopBanne";
+import AudienceSection from "./components/AudienceSection";
+import TestimonialsSection from "./components/TestimonialsSection";
+import BonusSection from "./components/BonusSection";
+import MoneyBackGuarantee from "./components/MoneyBackGuarantee";
+import FAQSection from "./components/FAQSection";
+import BenefitsSection from "./components/BenefitsSection";
+import OfferBanner from "./components/OfferBanner";
+import Top from "./components/Top";
+import DarshanSection from "./components/DarshanSection";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Top/>
+      <HeroSection/>
+      <ChallengesSection/>
+      <DigitalBusinessPoints/>
+      <BenefitsSection/>
+      <CommonSection/>
+      <WorkshopBanner/>
+      <AudienceSection/>
+      <TestimonialsSection/>
+      <DarshanSection/>
+      <BonusSection/>
+      <MoneyBackGuarantee/>
+      <FAQSection/>
+      <OfferBanner/>
+      
     </div>
   );
 }
